@@ -1,0 +1,298 @@
+body {
+    margin: 0px;
+}
+button {
+    color: #fff;
+    background-color: #F58734;
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+    transition: box-shadow .3s ease;
+    border: 2px solid #F58734
+}
+button:hover {
+    box-shadow: 1px 5px 10px #aaa;
+}
+button:active {
+    background-color: #C15A0B;
+    border-color: #C15A0B
+}
+.border_4 {
+    border-radius: 4px
+}
+.border_10 {
+    border-radius: 10px
+}
+.border_16 {
+    border-radius: 16px
+}
+.border_20 {
+    border-radius: 20px
+}
+.border_groove {
+    border-style: ridge;
+}
+.white {
+    background-color: #fff;
+    color: #ed7214
+}
+.white:active {
+    color: #fff
+}
+div {
+    margin-bottom: 16px;
+    padding: 20px
+}
+div.secondBatch {
+    background-color: #f3f3f3;
+}
+div.outter {
+    display: table;
+    position: fixed;
+    z-index: 11;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+div.info {
+    font-size: 20px;
+    font-family: calibri;
+    position: relative;
+    background-color: #fff;
+    margin: auto;
+    padding: 18px 20px;
+    width: 80%;
+    outline: 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: downAni;
+    -webkit-animation-duration: 0.4s;
+    animation-name: downAni;
+    animation-duration: 0.4s
+}
+span.close {
+    color: #000;
+    font-size: 20px;
+    border: 2px solid #000;
+    cursor: pointer;
+    padding: 4px
+}
+span.close:hover {
+    transition: .2s ease-out;
+    background-color: #71adad;
+    border-color: #71adad;
+    color: #fff
+}
+span.close:active {
+    color: #000
+}
+.orangei {
+    border-color: #C15A0B
+}
+.indigo {
+    background-color: #a58eb7;
+    border-color: #a58eb7
+}
+.indigo:hover {
+    background-color: #B38AD4;
+    border-color: #B38AD4
+}
+.indigo:active {
+    background-color: #936AB3;
+    border-color: #936AB3
+}
+.iwhite {
+    background-color: #fff;
+    color: #a58eb7;
+    border-color: #a58eb7
+}
+.iwhite:hover {
+    border-color: #B38AD4;
+    color: #B38AD4
+}
+.iwhite:active {
+    background-color: #936AB3;
+    border-color: #936AB3;
+    color: #fff
+}
+.indigoi {
+    border-color: #936AB3;
+    background-color: #a58eb7
+}
+.indigoi:active {
+    background-color: #936AB3;
+    border-color: #936AB3
+}
+.red {
+    background-color: #FB695F;
+    border-color: #FB695F
+}
+.red:hover {
+    border-color: #F32C1E;
+    background-color: #F32C1E
+}
+.red:active {
+    background-color: #990000;
+    border-color: #990000
+}
+.rwhite {
+    background-color: #fff;
+    color: #FF6A60;
+    border-color: #FF6A60
+}
+.rwhite:hover {
+    border-color: #EC6158;
+    color: #EC6158
+}
+.rwhite:active {
+    background-color: #ed2d26;
+    border-color: #ed2d26;
+    color: #fff
+}
+.redi {
+    background-color: #FF6A60;
+    border-color: #D02525
+}
+.redi:active {
+    background-color: #D02525;
+    border-color: #D02525;
+    color: #fff
+}
+.yellow {
+    border-color: #FFCE3C;
+    background-color: #FFCE3C
+}
+.yellow:active {
+    border-color: #ffc107;
+    background-color: #ffc107
+}
+.ywhite {
+    background-color: #fff;
+    border-color: #FFCE3C;
+    color: #FFCE3C
+}
+.ywhite:hover {
+    border-color: #ffc107;
+    color: #ffc107
+}
+.ywhite:active {
+    color: #fff;
+    border-color: #F5B906;
+    background-color: #F5B906
+}
+.yellowi {
+    background-color: #FFCE3C;
+    border-color: #F5B906
+}
+.yellowi:active {
+    background-color: #F5B906;
+    border-color: #F5B906
+}
+.blue {
+    background-color: #52b6dc;
+    border-color: #52b6dc
+}
+.blue:hover {
+    border-color: #03a9f4;
+    background-color: #03a9f4
+}
+.blue:active {
+    border-color: #3a81b7;
+    background-color: #3a81b7
+}
+.bwhite {
+    background-color: #fff;
+    border-color: #52b6dc;
+    color: #52b6dc
+}
+.bwhite:hover {
+    color: #03a9f4;
+    border-color: #03a9f4
+}
+.bwhite:active {
+    color: #fff;
+    background-color: #03a9f4;
+    border-color: #03a9f4
+}
+.bluei {
+    border-color: #3a81b7;
+    background-color: #52b6dc
+}
+.bluei:active {
+    color: #fff;
+    border-color: #3a81b7;
+    background-color: #3a81b7
+}
+.teal {
+    background-color: #5f9ea0;
+    border-color: #5f9ea0
+}
+.teal:hover {
+    background-color: #008080;
+    border-color: #008080
+}
+.teal:active {
+    background-color: #007373;
+    border-color: #007373
+}
+.teali {
+    background-color: #5f9ea0;
+    border-color: #007373
+}
+.teali:active {
+    background-color: #007373;
+    border-color: #007373
+}
+.twhite {
+    background-color: #fff;
+    border-color: #5f9ea0;
+    color: #5f9ea0
+}
+.twhite:hover {
+    color: #008080;
+    border-color: #008080
+}
+.twhite:active {
+    color: #fff;
+    background-color: #007373;
+    border-color: #007373
+}
+.green {
+    background-color: #9AD60A;
+    border-color: #9AD60A
+}
+.green:hover {
+    background-color: #95CE0D;
+    border-color: #95CE0D
+}
+.green:active {
+    background-color: #4caf50;
+    border-color: #4caf50
+}
+.gwhite {
+    background-color: #fff;
+    border-color: #9AD60A;
+    color: #9AD60A
+}
+.gwhite:hover {
+    color: #8ac007;
+    border-color: #8ac007
+}
+.gwhite:active {
+    background-color: #8ac007;
+    border-color: #8ac007;
+    color: #fff
+}
+.greeni {
+    background-color: #9AD60A;
+    border-color: #8ac007
+}
+.greeni:active {
+    border-color: #4caf50;
+    background-color: #4caf50
+}
+@-webkit-keyframes downAni{from{bottom: -300px;opacity: 0} to{bottom: 0;opacity: 1}}
+@keyframes downAni{from{bottom: -300px;opacity: 0} to{bottom: 0;opacity: 1}}
