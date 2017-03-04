@@ -1,4 +1,6 @@
 var feedmod = document.getElementById('outterFrame');
+var mod1 = document.getElementById('exterior2');
+var mod2 = document.getElementById('exterior');
 document.getElementById('feedbackbtn').onclick = function() {
     document.getElementById('outterFrame').style.display = "block";
     document.title = "Code The Web | Feedback";
@@ -81,3 +83,13 @@ $(document).ready(function(){
         $("#buttonslist").slideToggle("slow");
     });
 });
+window.onclick = function(event) {
+    if (event.target === mod1) {
+        mod1.style.display = "none";
+    }
+}
+window.onclick = function(event) {
+    if (event.target === mod2) {
+        mod2.style.display = "none";
+    }
+}
