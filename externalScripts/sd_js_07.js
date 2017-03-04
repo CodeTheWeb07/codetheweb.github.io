@@ -1,6 +1,4 @@
 var feedmod = document.getElementById('outterFrame');
-var mod1 = document.getElementById('exterior2');
-var mod2 = document.getElementById('exterior');
 document.getElementById('feedbackbtn').onclick = function() {
     document.getElementById('outterFrame').style.display = "block";
     document.title = "Code The Web | Feedback";
@@ -12,7 +10,7 @@ document.getElementById('closebtn').onclick = function() {
     } else {
         document.title = "Code The Web | Feedback";
     }
-}
+};
 function hide() {
     var btn = document.getElementById("introbtn");
     var intro = document.getElementById("intro");
@@ -46,7 +44,7 @@ if ($(this).scrollTop() > 1500){
   }
 });
 $(window).scroll(function(){
-if ($(this).scrollTop() > 900){
+if($(this).scrollTop() > 900){
     $('.Queries').addClass("display");
   }
 });
@@ -73,23 +71,13 @@ window.onclick = function(event) {
     if (event.target === feedmod) {
         feedmod.style.display = "none";
     }
-}
+};
 function showdiv(){
     var list = document.getElementById('buttonslist');
     list.style.display = "block";
-}
+};
 $(document).ready(function(){
     $("#showdiv1").click(function() {
         $("#buttonslist").slideToggle("slow");
     });
 });
-window.onclick = function(event) {
-    if (event.target === mod1) {
-        mod1.style.display = "none";
-    }
-}
-window.onclick = function(event) {
-    if (event.target === mod2) {
-        mod2.style.display = "none";
-    }
-}
