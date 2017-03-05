@@ -28,7 +28,7 @@ span.close:hover {
 }
 .inner {
     font-size: 20px;
-    font-family: calibri;
+    font-family: 'Roboto', calibri, sans-serif, verdana;
     position: relative;
     background-color: #fff;
     margin: auto;
@@ -158,7 +158,7 @@ span.close:hover {
 button {
    padding: 10px;
     font-size: 18px;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     cursor: pointer;
     outline: none;
     color: #fff;
@@ -168,5 +168,6 @@ button:hover {
     transition: box-shadow .2s ease-out;
     box-shadow: 1px 5px 10px #aaa
 }
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 @-webkit-keyframes downAni{from{bottom: -300px;opacity: 0} to{bottom: 0;opacity: 1}}
 @keyframes downAni{from{bottom: -300px;opacity: 0} to{bottom: 0;opacity: 1}}
