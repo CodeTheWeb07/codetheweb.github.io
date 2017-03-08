@@ -1,14 +1,9 @@
 var feedmod = document.getElementById('outterFrame');
 document.getElementById('feedbackbtn').onclick = function() {
-    document.getElementById('outterFrame').style.display = "block";
-    document.title = "Code The Web | Feedback";
-};
-document.getElementById('closebtn').onclick = function() {
-    document.getElementById('outterFrame').style.display = "none";
-    if (feedmod.style.display === "none") {
-        document.title = "Code The Web | Home";
-    } else {
+    if(feedmod.style.display === "block"){
         document.title = "Code The Web | Feedback";
+    }else{
+        document.title = "Code The Wed | Home";
     }
 };
 function hide() {
