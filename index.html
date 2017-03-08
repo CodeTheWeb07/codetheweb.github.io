@@ -89,19 +89,21 @@
     <div class="contentAbout Feedtext">
     Please tell us about the improvements that can be made to make these services better
     </div>
-    <div class="formBod modal" id="outterFrame">
-    <div id="feedback">
-        <span class="btnClose" id="closebtn">&times;</span>
-        <form class="feedForm" method="post" action="submit.asp">
+    <div class="formBod modal" id="outterFrame" role="feedback">
+    <div class="modal-content" id="feedback">
+        <div class="modal-header"><span class="close" id="closebtn">&times;</span></div>
+        <div class="modal-body">
+            <form class="feedForm" method="post" action="submit.asp">
     <input class="inputs" id="nameUser" name="name" placeholder="Name" required><br>
     <input class="inputs" id="ageUser" name="age" placeholder="Age" required><br>
             <textarea class="feedbackArea" placeholder="Feedback" required></textarea><br>
             <input type="submit" class="submitButton btn" id="submitbtn" value="Submit"> 
     </form>
+        </div>
     </div>
     </div>
     <div class="examples">
-    <a class="Feedbtn w3-ripple btn" id="feedbackbtn">Feedback</a>
+    <a class="Feedbtn w3-ripple btn" id="feedbackbtn" data-target="outterFrame" data-toggle="modal">Feedback</a>
     </div>
     <script src="externalScripts/sd_js_07.js"></script>
     </div>
