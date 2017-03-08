@@ -62,11 +62,6 @@ if ($(this).scrollTop() > 1600){
     $('#pgHead').removeClass("yellow");
   }
 });
-window.onclick = function(event) {
-    if (event.target === feedmod) {
-        feedmod.style.display = "none";
-    }
-};
 function showdiv(){
     var list = document.getElementById('buttonslist');
     list.style.display = "block";
